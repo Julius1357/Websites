@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  max-width: 100vw;
+  background-color: rgb(35, 35, 35);
+}
+
+.PageGrid {
+  max-height: 100vh;
+  max-width: auto;
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+  grid-template-rows: 10% 80% 10%;
+}
+
+.PageGridSub {
+  max-height: 100%;
+  grid-column: 2;
+  grid-row: 2;
+
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  grid-template-rows: 25% 50% 25%;
+}
+
+.TextCenter {
+  grid-column: 2;
+  grid-row: 2;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  max-height: 100%;
+  font-size: 400%;
+  color: rgb(200, 200, 200);
+}
+
+.IconMenu {
+  grid-column: 1;
+  grid-row: 1;
+
+  display: block;
+  margin: auto;
+  margin-left: 10%;
+
+  max-height: 50%;
+  width: 30%;
+}
